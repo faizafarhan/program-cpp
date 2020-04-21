@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+double pembagian (double x, double z){
+	return x / z;
+}
+
+int main (){
+	cout << pembagian (21.5, 2.9);
+}

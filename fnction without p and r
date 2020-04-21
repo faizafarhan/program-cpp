@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+void fungsi(){
+	cout << endl;
+	cout << "Function-without Parameter & Return";
+	cout << endl;
+}
+
+int main (){
+	fungsi();
+}

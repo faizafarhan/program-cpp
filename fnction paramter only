@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+void penjumlahan (int x, int s){
+	cout << (x + s);
+}
+
+int main (){
+	penjumlahan (100, 45);
+}

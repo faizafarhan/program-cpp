@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+void prototypeFunction (int angka1, int angka2);
+int main()
+{
+	prototypeFunction (200, 25);
+}
+void prototypeFunction (int angka1, int angka2)
+{
+	cout<<"hasil perkalian = "<< (angka1 * angka2)<<endl;
+	cout<<"hasil pembagian = "<< (angka1 / angka2)<<endl;
+	cout<<"hasil penjumlahan = "<< (angka1 + angka2)<<endl;
+	cout<<"hasil pengurangan = "<< (angka1 - angka2)<<endl;
+}
+

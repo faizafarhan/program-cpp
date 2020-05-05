@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int angka = 5 ;
+	int counterPrima = 0;
+	for ( int i = 1 ; i <= angka ; i++)
+	{
+	
+		if ( angka % i == 0 )
+		{
+			cout<< i <<" adalah faktor pembagi" << endl;
+			counterPrima++;
+		}
+	}
+	if ( counterPrima == 2)
+	{
+		cout<< angka << " adalah bilangan PRIMA" <<endl;
+	}else
+	{
+		cout<< angka << " adalah BUKAN bilangan PRIMA" <<endl;
+	}
+	
+}

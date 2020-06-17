@@ -1,0 +1,21 @@
+#include <iostream>
+#include <iostream>
+using namespace std;
+
+int main( int argc, char** argv){
+	
+    float r1, r2, r3;
+    cout << "Masukkan R1 : "; cin >> r1;
+    cout << "Masukkan R2 : "; cin >> r2;
+    cout << "Masukkan R3 : "; cin >> r3;
+
+	float rs;
+	rs=r1+r2+r3;
+	float rp;
+    rp=1/r1+1/r2+1/r3;
+ 
+    cout << "rangkaian Seri    = " << rs << endl;
+    cout << "rangkaian Paralel = " << rp << endl;
+
+    return 0;
+}
